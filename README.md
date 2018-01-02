@@ -42,6 +42,7 @@ Region Manager|6|150000|
 regressor = DecisionTreeRegressor(random_state = 0)
 ```
 
+#### Predicted Salary for 6.5 Position Level
 ```sh
 predicted salary : 160000
 ```
@@ -70,7 +71,7 @@ For 10 trees
 regressor = RandomForestRegressor(n_estimators = 10, random_state=0)
 regressor.fit(X, y)
 ```
-
+#### Predicted Salary for 6.5 Position Level
 ```sh
 predicted salary 
 for 10 trees  : 167000

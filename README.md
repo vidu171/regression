@@ -24,3 +24,20 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 **Assuming Significance to enter and stay in the model as 0.05**
 Recursively Removing the variables with the highest significance Level.
 And the result is R&D
+
+
+# Decision Tree Regression
+
+Decision Tree Regression Model to predict the salary of a future employee of the company based on a dataset containing the salary of different positions.
+
+
+| Position| Level |Salary |
+|----------|---------------|----------------|
+Manager | 4 | 80000 |
+Country Manager | 5 | 110000
+Region Manager|6|150000|
+
+#### Applying thr Decision Tree 
+```python
+regressor = DecisionTreeRegressor(random_state = 0)
+```

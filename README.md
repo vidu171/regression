@@ -43,4 +43,4 @@ regressor = DecisionTreeRegressor(random_state = 0)
 ```
 
 #### Graph obtained on 0.01 resolution 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Graph with 0.01 resolution")
+![alt text](https://github.com/vidu171/regression-models-ml/blob/master/Figure_1.png "Graph with 0.01 resolution")

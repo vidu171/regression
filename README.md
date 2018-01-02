@@ -41,3 +41,49 @@ Region Manager|6|150000|
 ```python
 regressor = DecisionTreeRegressor(random_state = 0)
 ```
+
+```sh
+predicted salary : 160000
+```
+
+#### Graph obtained on 0.01 resolution 
+![alt text](https://github.com/vidu171/regression-models-ml/blob/master/Figure_1.png "Graph with 0.01 resolution")
+
+
+
+# Random Forest Regression
+
+Random Forest Regression Model to predict the salary of a future employee of the company based on a dataset containing the salary of different positions.
+
+
+| Position| Level |Salary |
+|----------|---------------|----------------|
+Manager | 4 | 80000 |
+Country Manager | 5 | 110000
+Region Manager|6|150000|
+
+#### Applying thr Decision Tree 
+
+For 10 trees
+
+```python
+regressor = RandomForestRegressor(n_estimators = 10, random_state=0)
+regressor.fit(X, y)
+```
+
+```sh
+predicted salary 
+for 10 trees  : 167000
+for 100 trees : 158300
+for 300 trees : 160333
+```
+
+|color | number of trees |
+|------|------|
+ Blue | 10 |
+Green | 100 |
+yellow | 300 |
+
+
+#### Graph obtained on 0.01 resolution 
+![alt text](https://github.com/vidu171/regression-models-ml/blob/master/Figure_1.png "Graph with 0.01 resolution")

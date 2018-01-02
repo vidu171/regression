@@ -85,5 +85,5 @@ Green | 100 |
 yellow | 300 |
 
 
-#### Graph obtained on 0.01 resolution 
-![alt text](https://github.com/vidu171/regression-models-ml/blob/master/Figure_1.png "Graph with 0.01 resolution")
+#### Graph obtained with 10 (blue) 100 (green) and 300 (yellow) trees 
+![alt text](https://github.com/vidu171/regression-models-ml/blob/master/random_forest.png "Graph with 0.01 resolution")
